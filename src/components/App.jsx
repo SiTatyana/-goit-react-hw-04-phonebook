@@ -1,6 +1,6 @@
 import React from "react";
 import Contacts from "./Contacts/Contacts";
-import ErrorBoundary from "./ErrorBoundary/ErrorBoundary";
+
 
 export const App = () => {
   return (
@@ -14,9 +14,9 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      <ErrorBoundary>
+     
       <Contacts />
-      </ErrorBoundary>
+      
     </div>
   );
 };
